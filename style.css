@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+canvas {
+    display: fixed;
+    width: 100vh;
+    height: 100vh;
+    border: 0.5rem solid #000;
+
+}
+.promotion-picker {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 1rem;
+    background: #fff;
+    border: 2px solid #000;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.promotion-title {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+.promotion-picker button {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
